@@ -39,9 +39,6 @@ vendor.voice.path.for.pcm.voip=true \
 vendor.voice.playback.conc.disabled=true \
 vendor.voice.record.conc.disabled=false \
 vendor.voice.voip.conc.disabled=true
-vendor.audio.use.dts_eagle=true
-use.dts_eagle=true
-hpx_send_params=1
 
 # B service
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -240,4 +237,3 @@ ro.vendor.qti.sys.fw.trim_enable_memory=2147483648
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
-
