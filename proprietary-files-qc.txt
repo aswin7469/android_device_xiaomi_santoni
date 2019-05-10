@@ -1,4 +1,4 @@
-# ADSP - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# ADSP - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 vendor/bin/adsprpcd
 vendor/lib/libadsprpc.so
 vendor/lib/libadsp_default_listener.so
@@ -11,7 +11,7 @@ vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/libfastcvopt.so
 vendor/lib64/libmdsprpc.so
 
-# ADSP modules - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# ADSP modules - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
@@ -32,7 +32,7 @@ vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
 vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 
-# Audio libraries - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Audio libraries - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 etc/permissions/audiosphere.xml
 framework/audiosphere.jar
 vendor/lib/libacdb-fts.so
@@ -65,7 +65,7 @@ vendor/lib64/soundfx/libqcreverb.so|8bdd74d69593cd838e4b92d9b2884e0c4140226f
 vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so|cfc916d9a1ee617c248f784359df41a95d3b820a
 
-# Bluetooth - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Bluetooth - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/bin/hci_qcomm_init
 vendor/bin/wcnss_filter
@@ -84,7 +84,7 @@ vendor/lib/libbluetooth.so|e20847c9d5d52274b257008589d546ca26d48638
 vendor/lib/android.hardware.bluetooth.a2dp@1.0.so|afcd2a0f90476cd48eb91d01fd1947e7083a1b47
 vendor/lib/android.hardware.bluetooth@1.0.so|c0b35936e0d74bb4f4a43b90c989dbf1ddaacc81
 
-# CNE - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# CNE - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 etc/permissions/cneapiclient.xml
 etc/permissions/com.quicinc.cne.xml
 framework/cneapiclient.jar
@@ -154,10 +154,10 @@ vendor/lib64/libcneqmiutils.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
 
-# Charger - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Charger - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 vendor/bin/hvdcp_opti
 
-# DPM - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# DPM - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 vendor/bin/dpmQmiMgr
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib/libdpmqmihal.so
@@ -227,7 +227,7 @@ vendor/firmware/widevine.b05
 vendor/firmware/widevine.b06
 vendor/firmware/widevine.mdt
 
-# FM - from tissot - OPM1.171019.026 V9.6.4.0.ODHMIFE
+# FM - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 -lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
@@ -239,20 +239,7 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib/hw/gatekeeper.msm8937.so
 vendor/lib64/hw/gatekeeper.msm8937.so
 
-# GPS - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
-etc/permissions/com.qti.location.sdk.xml
-etc/permissions/com.qualcomm.location.xml
-etc/permissions/izat.xt.srv.xml
-framework/com.qti.location.sdk.jar
-framework/izat.xt.srv.jar
-lib64/liblocationservice_jni.so
-lib64/libxt_native.so
-lib64/vendor.qti.gnss@1.0.so
-lib64/vendor.qti.gnss@1.1.so
-lib64/vendor.qti.gnss@1.2.so
-lib64/vendor.qti.gnss@2.0.so
-lib64/vendor.qti.gnss@2.1.so
--priv-app/com.qualcomm.location/com.qualcomm.location.apk
+# GPS - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
@@ -282,7 +269,6 @@ vendor/lib64/liblocationservice_glue.so
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libquipc_os_api.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libslimclient.so
 vendor/lib64/libulp2.so
 vendor/lib64/libxtadapter.so
@@ -380,15 +366,15 @@ vendor/lib64/libkeymasterutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterdeviceutils.so
 
-# Listen - from marmite - OPM5.171019.017 - UOS273C
-vendor/lib/libadpcmdec.so|ddd8d6936a718349aa2692edd39340c5f02d020f
-vendor/lib/libsmwrapper.so|ac0e3c3415594e9e7c1ac7fba303ee8e5d6dc4b3
-vendor/lib/vendor.qti.voiceprint@1.0.so|16e0084800cf19698862df4c7827a115bee8f530
-vendor/lib/hw/sound_trigger.primary.msm8937.so|5b24a1391389e14c46e6ce6ff9e8a9d17fcadf86
-vendor/lib64/vendor.qti.voiceprint@1.0.so|5975981a5c40065cf4593f30bb36ca66fd1bf7fc
-vendor/lib64/hw/sound_trigger.primary.msm8937.so|a7ab4173393fa335fee2fc359b553df8aac271e4
+# Listen - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
+vendor/lib64/hw/sound_trigger.primary.msm8937.so
+vendor/lib64/vendor.qti.voiceprint@1.0.so
+vendor/lib/hw/sound_trigger.primary.msm8937.so
+vendor/lib/libadpcmdec.so
+vendor/lib/libsmwrapper.so
+vendor/lib/vendor.qti.voiceprint@1.0.so
 
-# Media - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Media - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 lib/libstagefright_soft_flacdec.so
 -vendor/lib/libgpustats.so
 vendor/lib/libI420colorconvert.so
@@ -440,11 +426,11 @@ vendor/lib64/libOmxSwVdec.so|c7813e635138787c16ccf97ffd1dda3ae82a8a08
 vendor/lib64/libOmxSwVencMpeg4.so|efa609c91d386f17e01749092abafd479f208427
 vendor/lib64/libswvdec.so|928e421d7f4a8c8d1b1e8a37e8dd37f46d2c86c4
 
-# Modem - from tissot - OPM1.171019.026 V9.6.4.0.ODHMIFE
-vendor/lib/libwms.so|f34362d8c077a84bf203166ea73ade3de8cfc876
-vendor/lib64/libwms.so|23a0fd55cdf06ace1c7af3f77d0cf1a85ba2e204
+# Modem - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
+vendor/lib/libwms.so
+vendor/lib64/libwms.so
 
-# Perf - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Perf - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 lib/libqti-at.so
 lib/libqti-perfd-client_system.so
 -lib/vendor.qti.hardware.iop@1.0.so
@@ -478,7 +464,7 @@ vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
 vendor/lib64/vendor.qti.hardware.perf@1.0.so
 
-# Perf QPerformance - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Perf QPerformance - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 bin/perfservice
 etc/init/perfservice.rc
 etc/perf/whitelistedapps.xml
@@ -494,13 +480,13 @@ lib64/libqti-util_system.so
 lib64/libqti_performance.so
 
 
-# Peripheral manager - from tissot - OPM1.171019.026 V9.6.4.0.ODHMIFE
-vendor/bin/pm-proxy|3a6e03b81206ac445f70bd04309131e2e6757a53
-vendor/bin/pm-service|d115b6d3e3113e36cf78f9c5e1128bcb6686d528
-vendor/lib/libperipheral_client.so|f8f7ebda2c0f443b811db68e6675e265a0185edf
-vendor/lib64/libperipheral_client.so|5acda41dcc3e85a90220a7cd6eb1ed37f9f67ae1
+# Peripheral manager - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
+vendor/bin/pm-proxy
+vendor/bin/pm-service
+vendor/lib/libperipheral_client.so
+vendor/lib64/libperipheral_client.so
 
-# Postprocessing - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Postprocessing - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 framework/com.qti.snapdragon.sdk.display.jar
 -lib/vendor.display.color@1.0.so
@@ -527,7 +513,16 @@ vendor/lib64/vendor.display.color@1.2.so
 vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
-# QMI - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Power-off alarm - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
+framework/vendor.qti.hardware.alarm-V1.0-java.jar
+-vendor/app/PowerOffAlarm/PowerOffAlarm.apk
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
+vendor/bin/power_off_alarm
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so
+
+# QMI - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 etc/permissions/qti_permissions.xml
 lib/libdiag_system.so
 lib/libqmi_cci_system.so
@@ -565,7 +560,7 @@ vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
 
-# Radio - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Radio - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 -app/QtiTelephonyService/QtiTelephonyService.apk
 etc/permissions/lpa.xml
 etc/permissions/telephonyservice.xml
@@ -579,7 +574,6 @@ framework/qti-telephony-common.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/hw/qcrild
 vendor/bin/ATFWD-daemon
-vendor/bin/ipacm-diag
 vendor/bin/netmgrd
 vendor/bin/port-bridge
 vendor/bin/qti
@@ -658,7 +652,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 vendor/radio/qcril_database/qcril.db
 
-# Radio - IMS - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Radio - IMS - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 -app/imssettings/imssettings.apk:vendor/app/imssettings/imssettings.apk
 -priv-app/ims/ims.apk
 -app/uceShimService/uceShimService.apk
@@ -763,33 +757,35 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0.so
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 
-# Sensors - from marmite - OPM5.171019.017 - UOS273C
-vendor/bin/sensors.qcom|ac4219584168f4d19dbce0375b9955969275e31c
--vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar|cbc37993a423de1de97114bf7de105d2aa792101
-vendor/lib/hw/activity_recognition.msm8937.so|471c0c7d52f1ada4b5cca3565fb2e4137487cd17
-vendor/lib/libsensor1.so|8b4a1fba125011709b764e3bb3f959e78056a013
-vendor/lib/libsensor_reg.so|b38a48d9d0c0cb2f98b274b93e45730826814b0c
-vendor/lib/sensors.ssc.so|4c593afd059b132eb25f3c89a6f192c178b0f914
-vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|50b2f47e31c65af5261812026855eed7e62f5c57
-vendor/lib64/hw/activity_recognition.msm8937.so|3b5ace9dc2565eb46a14293464718a773cead56a
-vendor/lib64/libsensor1.so|3bb8fc9d64e9314fffde62021019f769c9c67e01
-vendor/lib64/libsensor_reg.so|ed67fe926d547e385a1e24fa9173a9fd53cd57bb
-vendor/lib64/sensors.ssc.so|4a3735ff6b4196774233210713eb1c62f9dfa095
-vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|743635a4dcb3c67eb32d874b261b12f6b1a19204
+# Sensors - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
+vendor/bin/sensors.qti
+-vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
+vendor/lib/hw/activity_recognition.msm8937.so
+vendor/lib/libsensor1.so
+vendor/lib/libsensor_reg.so
+vendor/lib/libsensor_user_cal.so
+vendor/lib/sensors.ssc.so
+vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
+vendor/lib64/hw/activity_recognition.msm8937.so
+vendor/lib64/libsensor1.so
+vendor/lib64/libsensor_reg.so
+vendor/lib64/libsensor_user_cal.so
+vendor/lib64/sensors.ssc.so
+vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
-# Thermal - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Thermal - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
-# Time services - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Time services - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
 
-# TUI - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# TUI - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 lib/vendor.qti.hardware.tui_comm@1.0.so
 lib64/vendor.qti.hardware.tui_comm@1.0.so
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
@@ -797,7 +793,7 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
-# Wi-Fi - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Wi-Fi - from tissot - PKQ1.180917.001 V10.0.7.0.PDHMIXM
 vendor/bin/wcnss_service
 
 # APTX - from Onyx_00WW-user - PKQ1.180712.001 00WW_3_150 release-keys
@@ -851,6 +847,7 @@ lib/libwfduibcsrcinterface.so
 vendor/bin/wifidisplayhalservice
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so
+vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 vendor/lib/libwfdcommonutils_proprietary.so
 vendor/lib/libwfdhaldsmanager.so
 vendor/lib/libwfdhdcpcp.so

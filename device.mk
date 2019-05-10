@@ -20,6 +20,7 @@ $(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -184,12 +185,6 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service
 
-PRODUCT_PACKAGES += \
-    vendor.display.color@1.0-service \
-    vendor.display.color@1.0-impl \
-    vendor.display.config@1.1 \
-    vendor.display.config@1.1_vendor
-
 PRODUCT_PROPERTY_OVERRIDES += debug.hwui.use_buffer_age=false
 
 # DRM
@@ -244,9 +239,9 @@ PRODUCT_PACKAGES += \
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
-    android.hidl.base@1.0_vendor \
+    android.hidl.base@1.0_system \
     android.hidl.manager@1.0 \
-    android.hidl.manager@1.0_vendor \
+    android.hidl.manager@1.0_system \
     android.hidl.manager@1.0-java
 
 # Input
@@ -321,13 +316,9 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
-# OTA Updates
+# DiracControl
 PRODUCT_PACKAGES += \
-    Updates
-    
-# Xiaomi Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
+    DiracControl
 
 PRODUCT_BOOT_JARS += \
     QPerformance \
@@ -335,11 +326,7 @@ PRODUCT_BOOT_JARS += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.qcom
-
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-impl \
-    android.hardware.power@1.0-service
+    android.hardware.power@1.1-service-qti
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
@@ -413,7 +400,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
-    android.hardware.sensors@1.0-service
+    android.hardware.sensors@1.0-service \
+    libsensorndkbridge
 
 # TextClassifier
 PRODUCT_PACKAGES += \
